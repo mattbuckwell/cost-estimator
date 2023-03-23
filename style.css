@@ -34,6 +34,7 @@ h1 {
     text-transform: uppercase;
     font-weight: bold;
     color: rgb(200, 175, 255);
+    margin: 0 0 32px 0;
     padding: 16px;
 }
 
@@ -69,4 +70,40 @@ h1 {
     left: -50%;
     z-index: 2;
     border-radius: 10px;
+}
+
+.toggle-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.toggle-wrapper img {
+    height: 40px;
+    margin: 0 16px;
+}
+
+.toggle {
+    background-color: rgb(83, 49, 156);
+    height: 32px;
+    width: 140px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4px 0 16px;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.toggle span:first-of-type {
+    color: #fff;
+}
+
+.toggle span:last-of-type {
+    color: rgb(83, 49, 156);
+    background-color: #fff;
+    padding: 4px 16px;
+    border-radius: 20px;
 }
