@@ -10,9 +10,13 @@ body {
     color: rgb(44, 44, 44);
 }
 
+/* Heading Section */
+
 h1 {
     color: rgb(83, 49, 156);
 }
+
+/* Tabs Section */
 
 .container {
     background-color: #fff;
@@ -52,6 +56,8 @@ h1 {
     position: relative;
 }
 
+/* Line Section */
+
 .line {
     height: 3px;
     width: 100%;
@@ -71,6 +77,8 @@ h1 {
     z-index: 2;
     border-radius: 10px;
 }
+
+/* Toggle Section */
 
 .toggle-wrapper {
     display: flex;
@@ -94,6 +102,7 @@ h1 {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 12px;
+    /* changed so padding doesn't alter the width of the div */
     box-sizing: border-box;
 }
 
@@ -106,4 +115,34 @@ h1 {
     background-color: #fff;
     padding: 4px 16px;
     border-radius: 20px;
+}
+
+/* Session Card Section */
+.sessions-card {
+    background-color: rgb(250, 247, 255);
+    text-align: center;
+    padding: 32px;
+    /* 50% of the width of the container this is sitting in */
+    width: 50%;
+    text-transform: uppercase;
+    margin: 16px 0;
+    border-radius: 10px;
+}
+
+.sessions-card p {
+    color: rgb(44, 44, 44);
+    font-size: 12px;
+    font-weight: bold;
+    margin: 16px 0 0 0;
+}
+
+.sessions-card .number {
+    color: rgb(83, 49, 156);
+    font-size: 54px;
+    margin: 0;
+}
+
+.description {
+    line-height: 32px;
+    margin: 16px 0 32px 0;
 }
